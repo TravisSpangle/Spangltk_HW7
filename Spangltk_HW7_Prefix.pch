@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'Spangltk_HW6' target in the 'Spangltk_HW6' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import <Cocoa/Cocoa.h>
+#endif
