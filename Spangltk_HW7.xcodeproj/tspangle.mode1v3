@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -298,7 +300,7 @@
 							<real>219</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>434 171 1302 838 0 0 1920 1058 </string>
+						<string>86 208 1302 838 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -309,8 +311,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>531543EC12B7E82700071876</string>
+										<string>5331FB4012B81BAB0035D90D</string>
 										<key>history</key>
 										<array>
 											<string>5305E7FA12B078D400B54AF4</string>
@@ -343,7 +343,7 @@
 											<string>5346B3A112B7102F00B649E4</string>
 											<string>5346B3BB12B713A400B649E4</string>
 											<string>5315438812B7DB4700071876</string>
-											<string>5315438912B7DB4700071876</string>
+											<string>531543EC12B7E82700071876</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -355,14 +355,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1061, 698}}</string>
+								<string>{{0, 0}, {1061, 696}}</string>
 								<key>RubberWindowFrame</key>
-								<string>434 171 1302 838 0 0 1920 1058 </string>
+								<string>86 208 1302 838 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>698pt</string>
+							<string>696pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -375,14 +375,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 703}, {1061, 94}}</string>
+								<string>{{0, 701}, {1061, 96}}</string>
 								<key>RubberWindowFrame</key>
-								<string>434 171 1302 838 0 0 1920 1058 </string>
+								<string>86 208 1302 838 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>94pt</string>
+							<string>96pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -401,9 +401,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5315432B12B7D62000071876</string>
+				<string>5331FB4112B81BAB0035D90D</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>5315432C12B7D62000071876</string>
+				<string>5331FB4212B81BAB0035D90D</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -541,15 +541,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5315432D12B7D62000071876</string>
-		<string>5315432E12B7D62000071876</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>53FF352512ADBA2E00C58A2F</string>
 		<string>/Users/tspangle/Dropbox/class/Spangltk_HW7/Spangltk_HW7.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>434 171 1302 838 0 0 1920 1058 </string>
+	<string>86 208 1302 838 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -570,7 +566,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Location.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -587,8 +583,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -628,7 +622,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>53FF352512ADBA2E00C58A2F</string>
-				<string>5315431912B7D5C900071876</string>
+				<string>5331FB4312B81BAB0035D90D</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -641,7 +635,7 @@
 			<key>WindowToolGUID</key>
 			<string>53FF352512ADBA2E00C58A2F</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
