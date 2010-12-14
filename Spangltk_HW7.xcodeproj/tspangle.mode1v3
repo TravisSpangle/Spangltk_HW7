@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -300,7 +298,7 @@
 							<real>219</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>86 208 1302 838 0 0 1920 1058 </string>
+						<string>85 178 1302 838 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -311,6 +309,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -328,7 +328,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5331FB4012B81BAB0035D90D</string>
+										<string>5331FBB312B825050035D90D</string>
 										<key>history</key>
 										<array>
 											<string>5305E7FA12B078D400B54AF4</string>
@@ -357,7 +357,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1061, 696}}</string>
 								<key>RubberWindowFrame</key>
-								<string>86 208 1302 838 0 0 1920 1058 </string>
+								<string>85 178 1302 838 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -377,7 +377,7 @@
 								<key>Frame</key>
 								<string>{{0, 701}, {1061, 96}}</string>
 								<key>RubberWindowFrame</key>
-								<string>86 208 1302 838 0 0 1920 1058 </string>
+								<string>85 178 1302 838 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -541,11 +541,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>5331FB5912B81DB60035D90D</string>
+		<string>5331FB5A12B81DB60035D90D</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>53FF352512ADBA2E00C58A2F</string>
 		<string>/Users/tspangle/Dropbox/class/Spangltk_HW7/Spangltk_HW7.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>86 208 1302 838 0 0 1920 1058 </string>
+	<string>85 178 1302 838 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -744,13 +748,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>5315431A12B7D5C900071876</string>
+				<string>5331FB4C12B81C820035D90D</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>5315431B12B7D5C900071876</string>
-				<string>5315431C12B7D5C900071876</string>
-				<string>5315431D12B7D5C900071876</string>
-				<string>5315431E12B7D5C900071876</string>
-				<string>5315431F12B7D5C900071876</string>
+				<string>5331FB4D12B81C820035D90D</string>
+				<string>5331FB4E12B81C820035D90D</string>
+				<string>5331FB4F12B81C820035D90D</string>
+				<string>5331FB5012B81C820035D90D</string>
+				<string>5331FB5112B81C820035D90D</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -914,7 +918,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>5315432012B7D5C900071876</string>
+				<string>5331FB5212B81C820035D90D</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

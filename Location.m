@@ -52,6 +52,82 @@ static NSUInteger numberOfStations = 0;
 	 self.longitude = [NSNumber numberWithDouble:-122.5+(rand()%100) * .01];
  }
 
+- (void)fetchDetailsByCode
+{
+	NSLog(@"Fetching data for %@",self.code);
+	
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	
+	NSString *urlString = [NSString stringWithFormat:@"http://api.wunderground.com/auto/wui/geo/WXCurrentObXML/index.xml?query=%@", self.code];
+	
+    NSURL *url = [NSURL URLWithString:urlString];
+	
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url];
+    [request setValue:@"Custom" forHTTPHeaderField:@"User-Agent"];
+	
+    NSURLResponse *response = nil;
+    NSError *error = nil;
+	
+    NSData *responseContent = [NSURLConnection sendSynchronousRequest:request
+                                                    returningResponse:&response
+                                                                error:&error];
+    
+    if (!error) {
+        NSStringEncoding responseEncoding = NSISOLatin1StringEncoding;
+        
+        NSString *responseString = [[[NSString alloc] initWithData:responseContent
+                                                          encoding:responseEncoding] autorelease];
+		
+		NSData *data = [responseString dataUsingEncoding:responseEncoding];
+		
+		NSXMLDocument *doc = [[[NSXMLDocument alloc] initWithData:data 
+														  options:0 
+															error:&error] autorelease];
+		
+		NSXMLNode *aNode = [doc rootElement];
+		NSUInteger tracker = 0;
+		//tracks progress and will break out of the loop when all three elements have been found.
+		/*also prevents the second value from 'full' of overwriting the first. I would have prefered to check the level or index of full 
+		 instead of assuming.  Potential bug is that if two latitudes are found before the first full, then tracker would
+		 already be at 3 and miss the 'full' value.*/
+		
+		while (aNode = [aNode nextNode]) {
+			
+			if([[aNode name] isEqualToString:@"latitude"])
+			{
+				NSLog(@"%@: %@", [aNode name],[aNode stringValue] );
+				self.latitude = [NSNumber numberWithDouble:[[aNode stringValue] doubleValue]];
+				++tracker;
+
+			}
+			
+			if([[aNode name] isEqualToString:@"longitude"])
+			{
+				NSLog(@"%@: %@", [aNode name],[aNode stringValue] );
+				self.longitude = [NSNumber numberWithDouble:[[aNode stringValue] doubleValue]];
+				++tracker;
+			}
+			
+			if([[aNode name] isEqualToString:@"full"])
+			{
+				NSLog(@"%@: %@", [aNode name],[aNode stringValue] );
+				self.Name = [NSString stringWithFormat:@"%@",[aNode stringValue]];
+				++tracker;
+			}
+			
+			if (tracker ==3) {
+				break;
+			}
+		}
+		
+    } else {
+        NSLog(@"Oops, something went wrong: %@", error);
+    }
+	
+    [pool release];	
+	
+}
+
 - (void)populateTodaysObservations
 {
 	NSLog(@"populating data%@", self);
