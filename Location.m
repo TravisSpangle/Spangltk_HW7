@@ -20,32 +20,8 @@ static NSUInteger numberOfStations = 0;
 @dynamic observations;
 @dynamic savedLocations;
 
-- (id)init;
-{
-	if (![super init])
-		return nil;
-		
-	Location *populate = [[[Location alloc] init] autorelease];
-	
-	[populate setCode:@"KSEA"];
-	[populate setName:@"Seattle-Tacoma International"];
-	[self.savedLocations addObject:populate];
-	
-	[populate setCode:@"KBFI"];
-	[populate setName:@"Boeing Field/King County International Airport"];
-	[self.savedLocations addObject:populate];
-	
-	[populate setCode:@"KLKE"];
-	[populate setName:@"Kenmore Air Harbor SPB"];
-	[self.savedLocations addObject:populate];
-	
-	NSLog(@"updating saved Locations");
-	return self;
-}
-
 - (void)awakeFromInsert
  {
-	 //arrayVariable = [array objectAtIndex:378]; 
 	 self.code = [NSString stringWithFormat:@"KABC%02d", ++numberOfStations];
 	 self.Name = [NSString stringWithFormat:@"Station KABC%02d", numberOfStations];
 	 self.latitude = [NSNumber numberWithDouble:47.5+(rand()%100) * 0.1];
