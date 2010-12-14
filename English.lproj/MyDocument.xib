@@ -2,17 +2,17 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1060</int>
-		<string key="IBDocument.SystemVersion">10H574</string>
-		<string key="IBDocument.InterfaceBuilderVersion">823</string>
-		<string key="IBDocument.AppKitVersion">1038.35</string>
+		<string key="IBDocument.SystemVersion">10F569</string>
+		<string key="IBDocument.InterfaceBuilderVersion">804</string>
+		<string key="IBDocument.AppKitVersion">1038.29</string>
 		<string key="IBDocument.HIToolboxVersion">461.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
-			<string key="NS.object.0">823</string>
+			<string key="NS.object.0">804</string>
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="5"/>
+			<integer value="100029"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -36,7 +36,7 @@
 			<object class="NSWindowTemplate" id="827802848">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{698, 43}, {547, 693}}</string>
+				<string key="NSWindowRect">{{698, 38}, {547, 698}}</string>
 				<int key="NSWTFlags">1886912512</int>
 				<string key="NSWindowTitle">Window</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -51,7 +51,7 @@
 						<object class="NSTabView" id="651387049">
 							<reference key="NSNextResponder" ref="317955023"/>
 							<int key="NSvFlags">12</int>
-							<string key="NSFrame">{{13, 10}, {521, 677}}</string>
+							<string key="NSFrame">{{13, 15}, {521, 677}}</string>
 							<reference key="NSSuperview" ref="317955023"/>
 							<object class="NSMutableArray" key="NSTabViewItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
@@ -213,7 +213,7 @@
 														<nil key="NS.negativeattrs"/>
 														<object class="NSAttributedString" key="NS.zero">
 															<string key="NSString">0</string>
-															<object class="NSDictionary" key="NSAttributes" id="509866377">
+															<object class="NSDictionary" key="NSAttributes" id="407134823">
 																<bool key="EncodedWithXMLCoder">YES</bool>
 																<object class="NSArray" key="dict.sortedKeys" id="0">
 																	<bool key="EncodedWithXMLCoder">YES</bool>
@@ -228,7 +228,7 @@
 														</object>
 														<object class="NSAttributedString" key="NS.nan">
 															<string key="NSString">NaN</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<object class="NSDecimalNumberPlaceholder" key="NS.min" id="1045265903">
 															<int key="NS.exponent">0</int>
@@ -317,14 +317,14 @@
 														<nil key="NS.negativeattrs"/>
 														<object class="NSAttributedString" key="NS.zero">
 															<string key="NSString">0</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nil">
 															<string key="NSString"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nan">
 															<string key="NSString">NaN</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<reference key="NS.min" ref="1045265903"/>
 														<reference key="NS.max" ref="1045265903"/>
@@ -344,7 +344,7 @@
 											<object class="NSTextField" id="463108543">
 												<reference key="NSNextResponder" ref="235189254"/>
 												<int key="NSvFlags">258</int>
-												<string key="NSFrame">{{14, 410}, {140, 13}}</string>
+												<string key="NSFrame">{{1, 407}, {140, 13}}</string>
 												<reference key="NSSuperview" ref="235189254"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSTextFieldCell" key="NSCell" id="98204756">
@@ -364,7 +364,7 @@
 											<object class="NSButton" id="47663382">
 												<reference key="NSNextResponder" ref="235189254"/>
 												<int key="NSvFlags">257</int>
-												<string key="NSFrame">{{260, 400}, {90, 32}}</string>
+												<string key="NSFrame">{{318, 398}, {90, 32}}</string>
 												<reference key="NSSuperview" ref="235189254"/>
 												<int key="NSTag">-1</int>
 												<bool key="NSEnabled">YES</bool>
@@ -389,7 +389,7 @@
 											<object class="NSButton" id="634206844">
 												<reference key="NSNextResponder" ref="235189254"/>
 												<int key="NSvFlags">257</int>
-												<string key="NSFrame">{{350, 399}, {90, 32}}</string>
+												<string key="NSFrame">{{400, 399}, {90, 32}}</string>
 												<reference key="NSSuperview" ref="235189254"/>
 												<int key="NSTag">-1</int>
 												<bool key="NSEnabled">YES</bool>
@@ -567,14 +567,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -649,14 +649,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -898,14 +898,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -980,14 +980,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -1107,14 +1107,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -1243,13 +1243,13 @@
 											<object class="NSButton" id="866811833">
 												<reference key="NSNextResponder" ref="235189254"/>
 												<int key="NSvFlags">268</int>
-												<string key="NSFrame">{{138, 399}, {110, 32}}</string>
+												<string key="NSFrame">{{197, 398}, {126, 32}}</string>
 												<reference key="NSSuperview" ref="235189254"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSButtonCell" key="NSCell" id="961253185">
 													<int key="NSCellFlags">67239424</int>
 													<int key="NSCellFlags2">134217728</int>
-													<string key="NSContents">Fake Data</string>
+													<string key="NSContents">Todays Data</string>
 													<reference key="NSSupport" ref="690593708"/>
 													<reference key="NSControlView" ref="866811833"/>
 													<int key="NSButtonFlags">-2038284033</int>
@@ -1290,6 +1290,26 @@
 													<reference key="NSControlView" ref="695743481"/>
 													<reference key="NSBackgroundColor" ref="419233326"/>
 													<reference key="NSTextColor" ref="178546593"/>
+												</object>
+											</object>
+											<object class="NSButton" id="265971985">
+												<reference key="NSNextResponder" ref="235189254"/>
+												<int key="NSvFlags">268</int>
+												<string key="NSFrame">{{64, 397}, {133, 32}}</string>
+												<reference key="NSSuperview" ref="235189254"/>
+												<bool key="NSEnabled">YES</bool>
+												<object class="NSButtonCell" key="NSCell" id="872966736">
+													<int key="NSCellFlags">67239424</int>
+													<int key="NSCellFlags2">134217728</int>
+													<string key="NSContents">Load Last Data</string>
+													<reference key="NSSupport" ref="690593708"/>
+													<reference key="NSControlView" ref="265971985"/>
+													<int key="NSButtonFlags">-2038284033</int>
+													<int key="NSButtonFlags2">129</int>
+													<string key="NSAlternateContents"/>
+													<string key="NSKeyEquivalent"/>
+													<int key="NSPeriodicDelay">200</int>
+													<int key="NSPeriodicInterval">25</int>
 												</object>
 											</object>
 										</object>
@@ -1372,14 +1392,14 @@
 														<nil key="NS.negativeattrs"/>
 														<object class="NSAttributedString" key="NS.zero">
 															<string key="NSString">0</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nil">
 															<string key="NSString"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nan">
 															<string key="NSString">NaN</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<reference key="NS.min" ref="1045265903"/>
 														<reference key="NS.max" ref="1045265903"/>
@@ -1461,14 +1481,14 @@
 														<nil key="NS.negativeattrs"/>
 														<object class="NSAttributedString" key="NS.zero">
 															<string key="NSString">0</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nil">
 															<string key="NSString"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nan">
 															<string key="NSString">NaN</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<reference key="NS.min" ref="1045265903"/>
 														<reference key="NS.max" ref="1045265903"/>
@@ -1602,14 +1622,14 @@
 														<nil key="NS.negativeattrs"/>
 														<object class="NSAttributedString" key="NS.zero">
 															<string key="NSString">0</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nil">
 															<string key="NSString"/>
 														</object>
 														<object class="NSAttributedString" key="NS.nan">
 															<string key="NSString">NaN</string>
-															<reference key="NSAttributes" ref="509866377"/>
+															<reference key="NSAttributes" ref="407134823"/>
 														</object>
 														<reference key="NS.min" ref="1045265903"/>
 														<reference key="NS.max" ref="1045265903"/>
@@ -1865,14 +1885,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -1947,14 +1967,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -2029,14 +2049,14 @@
 																				<nil key="NS.negativeattrs"/>
 																				<object class="NSAttributedString" key="NS.zero">
 																					<string key="NSString">0</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nil">
 																					<string key="NSString"/>
 																				</object>
 																				<object class="NSAttributedString" key="NS.nan">
 																					<string key="NSString">NaN</string>
-																					<reference key="NSAttributes" ref="509866377"/>
+																					<reference key="NSAttributes" ref="407134823"/>
 																				</object>
 																				<reference key="NS.min" ref="1045265903"/>
 																				<reference key="NS.max" ref="1045265903"/>
@@ -2242,7 +2262,7 @@
 							</object>
 						</object>
 					</object>
-					<string key="NSFrameSize">{547, 693}</string>
+					<string key="NSFrameSize">{547, 698}</string>
 					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
@@ -3349,26 +3369,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBBindingConnection" key="connection">
-						<string key="label">target: selection</string>
-						<reference key="source" ref="866811833"/>
-						<reference key="destination" ref="308420226"/>
-						<object class="NSNibBindingConnector" key="connector">
-							<reference key="NSSource" ref="866811833"/>
-							<reference key="NSDestination" ref="308420226"/>
-							<string key="NSLabel">target: selection</string>
-							<string key="NSBinding">target</string>
-							<string key="NSKeyPath">selection</string>
-							<object class="NSDictionary" key="NSOptions">
-								<string key="NS.key.0">NSSelectorName</string>
-								<string key="NS.object.0">createFakeData</string>
-							</object>
-							<int key="NSNibBindingConnectorVersion">2</int>
-						</object>
-					</object>
-					<int key="connectionID">100441</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBBindingConnection" key="connection">
 						<string key="label">value: selection.Temperature</string>
 						<reference key="source" ref="394359708"/>
 						<reference key="destination" ref="685854371"/>
@@ -3414,6 +3414,46 @@
 						</object>
 					</object>
 					<int key="connectionID">100453</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">target: selection</string>
+						<reference key="source" ref="265971985"/>
+						<reference key="destination" ref="308420226"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="265971985"/>
+							<reference key="NSDestination" ref="308420226"/>
+							<string key="NSLabel">target: selection</string>
+							<string key="NSBinding">target</string>
+							<string key="NSKeyPath">selection</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSSelectorName</string>
+								<string key="NS.object.0">getFreshData</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100458</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBBindingConnection" key="connection">
+						<string key="label">target: selection</string>
+						<reference key="source" ref="866811833"/>
+						<reference key="destination" ref="308420226"/>
+						<object class="NSNibBindingConnector" key="connector">
+							<reference key="NSSource" ref="866811833"/>
+							<reference key="NSDestination" ref="308420226"/>
+							<string key="NSLabel">target: selection</string>
+							<string key="NSBinding">target</string>
+							<string key="NSKeyPath">selection</string>
+							<object class="NSDictionary" key="NSOptions">
+								<string key="NS.key.0">NSSelectorName</string>
+								<string key="NS.object.0">populateTodaysObservations</string>
+							</object>
+							<int key="NSNibBindingConnectorVersion">2</int>
+						</object>
+					</object>
+					<int key="connectionID">100466</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -3528,15 +3568,16 @@
 							<reference ref="184989573"/>
 							<reference ref="934048498"/>
 							<reference ref="978484526"/>
-							<reference ref="47663382"/>
-							<reference ref="634206844"/>
-							<reference ref="463108543"/>
 							<reference ref="801425926"/>
 							<reference ref="858770305"/>
-							<reference ref="866811833"/>
 							<reference ref="219982377"/>
 							<reference ref="292003916"/>
 							<reference ref="695743481"/>
+							<reference ref="634206844"/>
+							<reference ref="47663382"/>
+							<reference ref="866811833"/>
+							<reference ref="265971985"/>
+							<reference ref="463108543"/>
 						</object>
 						<reference key="parent" ref="314111378"/>
 					</object>
@@ -4463,6 +4504,20 @@
 						<reference key="object" ref="759932236"/>
 						<reference key="parent" ref="695743481"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">100454</int>
+						<reference key="object" ref="265971985"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="872966736"/>
+						</object>
+						<reference key="parent" ref="235189254"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">100455</int>
+						<reference key="object" ref="872966736"/>
+						<reference key="parent" ref="265971985"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -4495,10 +4550,13 @@
 					<string>100258.IBPluginDependency</string>
 					<string>100259.IBPluginDependency</string>
 					<string>100261.IBPluginDependency</string>
+					<string>100261.IBViewBoundsToFrameTransform</string>
 					<string>100262.IBPluginDependency</string>
 					<string>100268.IBPluginDependency</string>
+					<string>100268.IBViewBoundsToFrameTransform</string>
 					<string>100269.IBPluginDependency</string>
 					<string>100272.IBPluginDependency</string>
+					<string>100272.IBViewBoundsToFrameTransform</string>
 					<string>100273.IBPluginDependency</string>
 					<string>100276.IBPluginDependency</string>
 					<string>100277.IBPluginDependency</string>
@@ -4597,11 +4655,15 @@
 					<string>100418.IBPluginDependency</string>
 					<string>100419.IBPluginDependency</string>
 					<string>100426.IBPluginDependency</string>
+					<string>100426.IBViewBoundsToFrameTransform</string>
 					<string>100427.IBPluginDependency</string>
 					<string>100432.IBPluginDependency</string>
 					<string>100433.IBPluginDependency</string>
 					<string>100434.IBPluginDependency</string>
 					<string>100435.IBPluginDependency</string>
+					<string>100454.IBPluginDependency</string>
+					<string>100454.IBViewBoundsToFrameTransform</string>
+					<string>100455.IBPluginDependency</string>
 					<string>5.IBEditorWindowLastContentRect</string>
 					<string>5.IBPluginDependency</string>
 					<string>5.IBWindowTemplateEditedContentRect</string>
@@ -4639,10 +4701,19 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABBYAAAw9KAAA</bytes>
+					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABDggAAw9cAAA</bytes>
+					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABDrwAAw9aAAA</bytes>
+					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4741,14 +4812,22 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABC/AAAw9aAAA</bytes>
+					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{411, 63}, {547, 693}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>{{411, 63}, {547, 693}}</string>
+					<object class="NSAffineTransform">
+						<bytes key="NSTransformStruct">P4AAAL+AAABCkgAAw9WAAA</bytes>
+					</object>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>{{485, 204}, {547, 698}}</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>{{485, 204}, {547, 698}}</string>
 					<integer value="1"/>
 					<integer value="1"/>
 					<string>{131.131, 86}</string>
@@ -4772,7 +4851,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">100453</int>
+			<int key="maxID">100466</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">

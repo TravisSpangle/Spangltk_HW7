@@ -18,7 +18,7 @@
 @property (nonatomic, retain) NSNumber * latitude;
 @property (nonatomic, retain) NSNumber * longitude;
 @property (nonatomic, retain) NSSet* observations;
-
+@property (nonatomic, retain) NSMutableArray * savedLocations;
 @end
 
 @interface Location (CoreDataGeneratedAccessors)

@@ -12,7 +12,6 @@
 
 @interface Observation :  NSManagedObject  
 {
-	NSXMLDocument *doc;
 }
 
 @property (nonatomic, retain) NSNumber * Pressure;
@@ -22,7 +21,6 @@
 @property (nonatomic, retain) NSDate * Timestamp;
 @property (nonatomic, retain) NSNumber * Windspeed;
 @property (nonatomic, retain) Location * station;
-@property (nonatomic, retain) NSXMLDocument * doc;
 
 @end
 
